@@ -19,7 +19,7 @@ Choose a region. I choose US West Oregon (Note that some GPU instances in limite
   - Choose template description - "Launch EC2 spot instances for training."
   - AMI -> "Deep Learning AMI (Ubuntu 18.04) Version 26.0"
   - Instance type -> p3.2xlarge (Available in US-West-2)
-  - Key pair (currently excluded, need to dig up deep learning.pem at home)
+  - Key pair (currently using brooks-ec2)
   - Network settings (EC2-Classic)
   - Availability zone - "Don't include in launch template"
   - Security groups - New window, EC2 -> Security Groups
@@ -45,5 +45,6 @@ Choose a region. I choose US West Oregon (Note that some GPU instances in limite
   - Go back to EC2 Launch template, add role. 
   - User data will become useful later. 
   
-  - Click on launch template -> can modify.
+  - Click on launch template -> can modify.  
   
+  - Current able to ssh into instance
