@@ -35,7 +35,7 @@ Choose a region. I choose US West Oregon (Note that some GPU instances in limite
   - Advanced details -> request spot -> True
   - IAM
     - New window -> iam
-    - Create policy -> s3 (all actions, s3 bucket)
+    - Create policy -> s3 (all actions, s3 bucket) [use s3FullAccess]
     - Name "brooks-spot-bucket-access"
     - Description: full_access_to_brooks-model
   - IAM Role -> EC2 -> brooks-spot-bucket-access
