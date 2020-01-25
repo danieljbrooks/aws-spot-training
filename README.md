@@ -48,3 +48,5 @@ Choose a region. I choose US West Oregon (Note that some GPU instances in limite
   - Click on launch template -> can modify.  
   
   - Current able to ssh into instance
+
+3. For S3 bucket - allow 
