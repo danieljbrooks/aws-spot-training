@@ -53,7 +53,7 @@ Choose a region. I choose US West Oregon (Note that some GPU instances in limite
 
 To provide restricted access to an s3 bucket, try a policy of the form:
 
-{
+'''{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -62,5 +62,5 @@ To provide restricted access to an s3 bucket, try a policy of the form:
             "Resource": "arn:aws:s3:::yourbucketname/*"
         }
     ]
-}
+}'''
 
